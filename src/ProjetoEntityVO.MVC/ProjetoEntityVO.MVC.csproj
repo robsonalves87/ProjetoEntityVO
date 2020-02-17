@@ -125,6 +125,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueObjects\Documento.cs" />
+    <Compile Include="ValueObjects\Email.cs" />
+    <Compile Include="ValueObjects\Endereco.cs" />
+    <Compile Include="ValueObjects\Nome.cs" />
+    <Compile Include="ValueObjects\ValueObject.cs" />
+    <Compile Include="ViewsModels\CategoriaDoProduto.cs" />
+    <Compile Include="ViewsModels\Cliente.cs" />
+    <Compile Include="ViewsModels\Produto.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -165,7 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
